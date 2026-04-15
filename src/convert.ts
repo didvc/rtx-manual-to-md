@@ -16,11 +16,7 @@
 
 import * as fs from "fs";
 import * as path from "path";
-import { fileURLToPath } from "url";
 import { load, type CheerioAPI, type Cheerio, type AnyNode } from "cheerio";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 // ── CLI args ─────────────────────────────────────────────────────────────────
 const args = process.argv.slice(2);
@@ -32,11 +28,12 @@ const getArg = (flag: string, fallback: string): string => {
 
 const hasFlag = (flag: string): boolean => args.includes(flag);
 
+// Default paths are relative to cwd so compiled binaries work correctly
 const INPUT_DIR = getArg(
   "--input",
-  path.resolve(__dirname, "..", "Cmdref_HTML_Archive (1)", "html")
+  path.resolve(process.cwd(), "Cmdref_HTML_Archive (1)", "html")
 );
-const OUTPUT_DIR = getArg("--output", path.resolve(__dirname, "..", "output"));
+const OUTPUT_DIR = getArg("--output", path.resolve(process.cwd(), "output"));
 const SHOW_STATS = hasFlag("--stats");
 
 const includePattern = getArg("--include", "");

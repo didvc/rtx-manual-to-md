@@ -27,6 +27,26 @@ YamahaはRTXコマンドリファレンスを約1,300件のXHTMLファイルのZ
 
 ## インストール
 
+### オプション A — ビルド済みバイナリ（Node.js不要）
+
+[Releasesページ](https://github.com/yuis-ice/rtx-manual-to-md/releases/latest)からプラットフォームに合ったバイナリをダウンロード:
+
+| プラットフォーム | ファイル |
+|----------------|---------|
+| Linux x64 | `rtx-manual-to-md-linux-x64` |
+| Linux ARM64 | `rtx-manual-to-md-linux-arm64` |
+| macOS x64 | `rtx-manual-to-md-darwin-x64` |
+| macOS ARM64 (Apple Silicon) | `rtx-manual-to-md-darwin-arm64` |
+| Windows x64 | `rtx-manual-to-md-win-x64.exe` |
+
+```bash
+# Linux / macOS — 実行権限を付与して実行
+chmod +x rtx-manual-to-md-linux-x64
+./rtx-manual-to-md-linux-x64 --stats
+```
+
+### オプション B — ソースから（Node.js 20以上が必要）
+
 ```bash
 git clone https://github.com/yuis-ice/rtx-manual-to-md
 cd rtx-manual-to-md
