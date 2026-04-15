@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Converter output (generated files, not source)
+output/
+
+# Yamaha HTML archive (large binary download, not tracked)
+Cmdref*/
+
+# Private / agent tooling
+AGENTS.md
+agent-references/
+prompt-genesis.md
+.opencode/
+.ignore
+
+# Editor / OS
+.DS_Store
+*.swp
+*.swo

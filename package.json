@@ -1,0 +1,16 @@
+{
+  "name": "rtx-manual-to-md",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "convert": "tsx src/convert.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "@types/node": "^20.0.0"
+  }
+}
