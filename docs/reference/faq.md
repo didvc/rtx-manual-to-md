@@ -1,5 +1,29 @@
 # FAQ
 
+## Legal
+
+### Is this an official Yamaha product?
+
+No. This project is an independent, community-created tool with **no affiliation, endorsement, or sponsorship from Yamaha Corporation**. Please do not contact Yamaha Corporation for support related to this tool.
+
+### Where does the copyright for the source data sit?
+
+The command reference data parsed by this tool is **© Yamaha Corporation. All Rights Reserved.** This repository contains only the converter source code. No parsed output is included or distributed. Users must download the HTML archive themselves from the official source:
+
+> https://www.rtpro.yamaha.co.jp/RT/manual/rt-common/
+
+This design (Bring Your Own Data) ensures no copyrighted content is redistributed via this project.
+
+### Are "Yamaha" and "RTX" trademarks?
+
+Yes. "Yamaha" and "RTX" are registered trademarks of Yamaha Corporation. Their use in this project is purely descriptive — identifying the data source — and does not imply any official relationship.
+
+### What terms of use apply to the source data?
+
+By using this tool to process the HTML archive, you are responsible for complying with Yamaha Corporation's documentation terms of use as stated on the official RTpro site.
+
+---
+
 ## Why is the output still in Japanese?
 
 The source material — Yamaha's command reference — is published only in Japanese. This tool converts the *format* (HTML → Markdown) but does not translate the content. The Japanese text is preserved verbatim.

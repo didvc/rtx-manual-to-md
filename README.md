@@ -121,6 +121,18 @@ Each command page extracts:
 
 Navigation-only files (`index.html`, `toc.html`, `*_chapter.html`, `*_concept.html`) are skipped automatically.
 
+## Legal
+
+"Yamaha" and "RTX" are registered trademarks of Yamaha Corporation.
+
+This project is an independent, community-created tool with **no affiliation, endorsement, or sponsorship from Yamaha Corporation**. It is not an official Yamaha product. To avoid confusion, please do not contact Yamaha Corporation for support related to this tool.
+
+The command reference data that this tool parses is **© Yamaha Corporation. All Rights Reserved.** This repository contains only the converter source code — no parsed data is included or distributed (Bring Your Own Data). Users must download the HTML archive directly from the official source:
+
+> https://www.rtpro.yamaha.co.jp/RT/manual/rt-common/
+
+By using this tool, you agree to comply with Yamaha Corporation's documentation terms of use as stated on the official RTpro site.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
