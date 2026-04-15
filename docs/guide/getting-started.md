@@ -7,6 +7,31 @@
 
 ## Install
 
+### Option A — Pre-built binary (no Node.js required)
+
+Download the binary for your platform from the [Releases page](https://github.com/yuis-ice/rtx-manual-to-md/releases/latest):
+
+| Platform | File |
+|----------|------|
+| Linux x64 | `rtx-manual-to-md-linux-x64` |
+| Linux ARM64 | `rtx-manual-to-md-linux-arm64` |
+| macOS x64 | `rtx-manual-to-md-darwin-x64` |
+| macOS ARM64 (Apple Silicon) | `rtx-manual-to-md-darwin-arm64` |
+| Windows x64 | `rtx-manual-to-md-win-x64.exe` |
+
+```bash
+# Linux / macOS — make executable then run
+chmod +x rtx-manual-to-md-linux-x64
+./rtx-manual-to-md-linux-x64 --stats
+```
+
+```powershell
+# Windows — cmd.exe or PowerShell (no chmod needed)
+.\rtx-manual-to-md-win-x64.exe --stats
+```
+
+### Option B — From source (Node.js 20+ required)
+
 ```bash
 git clone https://github.com/yuis-ice/rtx-manual-to-md
 cd rtx-manual-to-md
@@ -16,6 +41,10 @@ npm install
 ## First Run
 
 ```bash
+# Option A (binary)
+./rtx-manual-to-md-linux-x64
+
+# Option B (source)
 npm run convert
 ```
 
