@@ -1,5 +1,24 @@
 # FAQ
 
+## Disclaimer
+
+### Is the converted output guaranteed to be accurate?
+
+No. The tool is provided **"as is"** without warranty of any kind. Parsing bugs may cause content to be missing, truncated, or misformatted. Always treat the output as a convenience reference, not a ground truth.
+
+### What if the source HTML itself has errors?
+
+The output faithfully reflects whatever the source documents contain. If the Yamaha command reference has typos, outdated parameter values, or unreflected firmware changes, those errors carry through unchanged. This project is not responsible for inaccuracies in the upstream data.
+
+### Can I use this output to configure production network equipment?
+
+> [!WARNING]
+> **Never apply commands or configurations derived from this tool's output to a production environment without first verifying against official Yamaha documentation and testing in a non-production environment.** When fed into an LLM or RAG pipeline, hallucination risk compounds this further.
+
+The developer shall not be liable for any damages — including network downtime, data loss, or security breaches — arising from the use of this tool or its output.
+
+---
+
 ## Legal
 
 ### Is this an official Yamaha product?

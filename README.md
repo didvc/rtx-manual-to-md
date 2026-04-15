@@ -133,6 +133,23 @@ The command reference data that this tool parses is **© Yamaha Corporation. All
 
 By using this tool, you agree to comply with Yamaha Corporation's documentation terms of use as stated on the official RTpro site.
 
+## Disclaimer
+
+### Tool Accuracy
+
+This tool is provided **"as is"** without warranty of any kind. The developer makes no guarantee that the parser is error-free or that the converted output accurately represents every command, parameter, or constraint in the source HTML. Parsing bugs may cause content to be missing, truncated, or misformatted.
+
+### Source Data Accuracy
+
+The output is entirely derived from the Yamaha command reference HTML. If the source documents contain errors, typos, or outdated information (e.g. unreflected firmware changes), those errors will appear in the output unchanged. This project is not responsible for inaccuracies in the upstream data.
+
+### Operational Risk
+
+> [!WARNING]
+> This tool targets configuration of network infrastructure. **Never apply commands or configurations derived from this tool's output to a production environment without first verifying against official Yamaha documentation and testing in a non-production environment.** When used as input for an LLM or RAG pipeline, hallucination risk compounds this further.
+
+The developer shall not be liable for any damages — including but not limited to network downtime, data loss, or security breaches — arising from the use of this tool or its output.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
