@@ -48,6 +48,11 @@ chmod +x rtx-manual-to-md-linux-x64
 ./rtx-manual-to-md-linux-x64 --stats
 ```
 
+```powershell
+# Windows — cmd.exe or PowerShell (no chmod needed)
+.\rtx-manual-to-md-win-x64.exe --stats
+```
+
 ### Option B — From source (Node.js 20+ required)
 
 ```bash

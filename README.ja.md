@@ -45,6 +45,11 @@ chmod +x rtx-manual-to-md-linux-x64
 ./rtx-manual-to-md-linux-x64 --stats
 ```
 
+```powershell
+# Windows — cmd.exe または PowerShell（chmod 不要）
+.\rtx-manual-to-md-win-x64.exe --stats
+```
+
 ### オプション B — ソースから（Node.js 20以上が必要）
 
 ```bash
