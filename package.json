@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "convert": "tsx src/convert.ts"
+    "convert": "tsx src/convert.ts",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
     "cheerio": "^1.0.0"
   },
   "devDependencies": {
+    "@types/node": "^20.0.0",
     "tsx": "^4.19.0",
     "typescript": "^5.7.0",
-    "@types/node": "^20.0.0"
+    "vitepress": "^1.6.4"
   }
 }

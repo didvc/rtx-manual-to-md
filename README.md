@@ -3,6 +3,11 @@
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D20-green)](https://nodejs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org)
+[![Docs](https://img.shields.io/badge/docs-yuis--ice.github.io%2Frtx--manual--to--md-blue)](https://yuis-ice.github.io/rtx-manual-to-md/)
+
+**[日本語 README](README.ja.md)** | **[Full Documentation →](https://yuis-ice.github.io/rtx-manual-to-md/)**
+
+---
 
 Convert the **Yamaha RTX router command reference HTML archive** (`Cmdref_HTML_Archive.zip`) into clean **GitHub Flavored Markdown** files — ready for LLM ingestion, RAG pipelines, or offline browsing.
 
