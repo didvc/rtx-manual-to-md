@@ -11,6 +11,8 @@
 
 Convert the **Yamaha RTX router command reference HTML archive** (`Cmdref_HTML_Archive.zip`) into clean **GitHub Flavored Markdown** files — ready for LLM ingestion, RAG pipelines, or offline browsing.
 
+> See also: [`rtx-manual-to-json`](https://github.com/didvc/rtx-manual-to-json)
+
 ---
 
 ## Why
